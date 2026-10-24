@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Your Name</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1f2937;
+      background: #f3f4f6;
+      line-height: 1.6;
+    }
+    .cv {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 48px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    header {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 20px;
+      margin-bottom: 32px;
+    }
+    h1 { font-size: 32px; font-weight: 700; margin-bottom: 4px; }
+    .title { color: #2563eb; font-size: 18px; font-weight: 600; margin-bottom: 12px; }
+    .contact { font-size: 14px; color: #4b5563; display: flex; flex-wrap: wrap; gap: 16px; }
+    .contact a { color: #2563eb; text-decoration: none; }
+    section { margin-bottom: 32px; }
+    h2 {
+      font-size: 18px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.5px; color: #1f2937;
+      border-bottom: 1px solid #e5e7eb; padding-bottom: 6px; margin-bottom: 16px;
+    }
+    .job { margin-bottom: 20px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+    .job-title { font-size: 16px; font-weight: 600; }
+    .job-company { color: #2563eb; font-size: 15px; }
+    .job-date { color: #6b7280; font-size: 13px; }
+    .job-desc { font-size: 14px; color: #374151; margin-top: 6px; }
+    .edu-item { margin-bottom: 12px; }
+    .edu-degree { font-size: 15px; font-weight: 600; }
+    .edu-school { color: #2563eb; font-size: 14px; }
+    .edu-date { color: #6b7280; font-size: 13px; }
+    .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .skill {
+      background: #eff6ff; color: #1e40af; padding: 4px 14px;
+      border-radius: 9999px; font-size: 13px;
+    }
+    .summary { font-size: 15px; color: #374151; }
+    @media print {
+      body { background: #fff; }
+      .cv { box-shadow: none; margin: 0; max-width: 100%; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <header>
+      <h1>Your Name</h1>
+      <div class="title">Senior Marketing Manager</div>
+      <div class="contact">
+        <span>your.email@example.com</span>
+        <span>+1 (555) 123-4567</span>
+        <span>Toronto, ON, Canada</span>
+        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+        <a href="https://github.com/yourusername">GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p class="summary">
+        Results-driven marketing manager with 8+ years of experience leading digital campaigns,
+        brand strategy, and content marketing. Proven track record of increasing ROI by 40% and
+        growing audience engagement across multiple channels.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Senior Marketing Manager</div>
+            <div class="job-company">Acme Corp</div>
+          </div>
+          <div class="job-date">Jan 2022 – Present</div>
+        </div>
+        <p class="job-desc">
+          Led a team of 6 marketers to execute multi-channel campaigns across email, social,
+          and paid media. Increased lead generation by 45% and reduced customer acquisition
+          cost by 20%. Launched a content strategy that grew organic traffic by 60% in 12 months.
+        </p>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Marketing Specialist</div>
+            <div class="job-company">Beta Industries</div>
+          </div>
+          <div class="job-date">Mar 2019 – Dec 2021</div>
+        </div>
+        <p class="job-desc">
+          Managed social media accounts with 100K+ followers. Created and optimized paid ad
+          campaigns with $50K monthly budget. Collaborated with sales to align marketing
+          efforts with revenue goals, contributing to 25% YoY growth.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu-item">
+        <div class="edu-degree">B.A. in Marketing</div>
+        <div class="edu-school">University of Toronto</div>
+        <div class="edu-date">2015 – 2019</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill">Digital Marketing</span>
+        <span class="skill">SEO</span>
+        <span class="skill">Content Strategy</span>
+        <span class="skill">Google Analytics</span>
+        <span class="skill">Social Media Management</span>
+        <span class="skill">Email Marketing</span>
+        <span class="skill">Paid Advertising</span>
+        <span class="skill">Brand Management</span>
+        <span class="skill">Team Leadership</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

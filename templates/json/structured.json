@@ -1,0 +1,73 @@
+{
+  "template": "modern-blue",
+  "personalInfo": {
+    "fullName": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Toronto, ON, Canada",
+    "profession": "marketing-manager",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourprofile"
+  },
+  "summary": "Results-driven marketing manager with 8+ years of experience leading digital campaigns, brand strategy, and content marketing. Proven track record of increasing ROI by 40% and growing audience engagement across multiple channels.",
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Acme Corp",
+      "position": "Senior Marketing Manager",
+      "startDate": "2022-01",
+      "endDate": "",
+      "current": true,
+      "description": "Led a team of 6 marketers to execute multi-channel campaigns across email, social, and paid media. Increased lead generation by 45% and reduced customer acquisition cost by 20%. Launched a content strategy that grew organic traffic by 60% in 12 months."
+    },
+    {
+      "id": "exp-2",
+      "company": "Beta Industries",
+      "position": "Marketing Specialist",
+      "startDate": "2019-03",
+      "endDate": "2021-12",
+      "current": false,
+      "description": "Managed social media accounts with 100K+ followers. Created and optimized paid ad campaigns with $50K monthly budget. Collaborated with sales to align marketing efforts with revenue goals, contributing to 25% YoY growth."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "University of Toronto",
+      "degree": "B.A.",
+      "field": "Marketing",
+      "startDate": "2015-09",
+      "endDate": "2019-05",
+      "current": false
+    }
+  ],
+  "skills": [
+    "Digital Marketing",
+    "SEO",
+    "Content Strategy",
+    "Google Analytics",
+    "Social Media Management",
+    "Email Marketing",
+    "Paid Advertising",
+    "Brand Management",
+    "Team Leadership"
+  ],
+  "languages": [
+    { "id": "lang-1", "language": "English", "proficiency": "Native" },
+    { "id": "lang-2", "language": "French", "proficiency": "Professional" }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Google Ads Certification",
+      "issuer": "Google",
+      "date": "2023"
+    },
+    {
+      "id": "cert-2",
+      "name": "HubSpot Inbound Marketing",
+      "issuer": "HubSpot",
+      "date": "2022"
+    }
+  ]
+}

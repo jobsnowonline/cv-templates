@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Your Name</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      color: #1a1a1a;
+      background: #e9e9e9;
+      line-height: 1.6;
+    }
+    .cv {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 48px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    header { text-align: center; margin-bottom: 32px; padding-bottom: 20px; border-bottom: 2px solid #1a1a1a; }
+    h1 { font-size: 30px; font-weight: 700; letter-spacing: 2px; margin-bottom: 4px; }
+    .title { font-size: 16px; color: #555; margin-bottom: 12px; font-style: italic; }
+    .contact { font-size: 13px; color: #555; }
+    .contact span { margin: 0 8px; }
+    section { margin-bottom: 28px; }
+    h2 {
+      font-size: 16px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1px; margin-bottom: 14px; padding-bottom: 4px;
+      border-bottom: 1px solid #ccc;
+    }
+    .job { margin-bottom: 18px; }
+    .job-title { font-size: 15px; font-weight: 700; }
+    .job-company { font-size: 14px; color: #444; font-style: italic; }
+    .job-date { font-size: 13px; color: #777; }
+    .job-desc { font-size: 14px; margin-top: 4px; color: #333; }
+    .edu-degree { font-size: 15px; font-weight: 700; }
+    .edu-school { font-size: 14px; color: #444; font-style: italic; }
+    .edu-date { font-size: 13px; color: #777; }
+    .skills { font-size: 14px; color: #333; }
+    .summary { font-size: 14px; color: #333; text-align: justify; }
+    @media print {
+      body { background: #fff; }
+      .cv { box-shadow: none; margin: 0; max-width: 100%; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <header>
+      <h1>YOUR NAME</h1>
+      <div class="title">Financial Analyst</div>
+      <div class="contact">
+        <span>your.email@example.com</span> |
+        <span>+1 (555) 123-4567</span> |
+        <span>New York, NY</span> |
+        <span>linkedin.com/in/yourprofile</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p class="summary">
+        Detail-oriented financial analyst with 6+ years of experience in corporate finance,
+        investment analysis, and financial modeling. CFA Level 3 candidate with expertise in
+        valuation, risk assessment, and portfolio management. Seeking to leverage analytical
+        skills in a senior role at a growth-oriented firm.
+      </p>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="job">
+        <div class="job-title">Senior Financial Analyst</div>
+        <div class="job-company">Goldman Sachs</div>
+        <div class="job-date">New York, NY | 2021 – Present</div>
+        <p class="job-desc">
+          Conducted financial modeling and valuation analysis for M&A transactions valued at
+          $500M+. Prepared investment memos for senior management. Mentored 3 junior analysts.
+          Improved reporting efficiency by 30% through process automation.
+        </p>
+      </div>
+      <div class="job">
+        <div class="job-title">Financial Analyst</div>
+        <div class="job-company">JPMorgan Chase</div>
+        <div class="job-date">New York, NY | 2018 – 2021</div>
+        <p class="job-desc">
+          Analyzed quarterly earnings and industry trends for coverage universe of 15 companies.
+          Built and maintained DCF, LBO, and comparable company models. Presented findings to
+          institutional clients in weekly briefings.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu-degree">B.S. in Finance, Magna Cum Laude</div>
+      <div class="edu-school">New York University, Stern School of Business</div>
+      <div class="edu-date">2014 – 2018</div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p class="skills">
+        Financial Modeling, DCF Valuation, LBO Analysis, Excel (Advanced), VBA, Python,
+        Bloomberg Terminal, FactSet, SQL, Risk Assessment, Portfolio Management, CFA Level 3 Candidate
+      </p>
+    </section>
+  </div>
+</body>
+</html>
